@@ -1,6 +1,6 @@
 ﻿# -*- coding: utf-8 -*-
 """
-@author: cheng-man wu
+Author: cheng-man wu
 LinkedIn: www.linkedin.com/in/chengmanwu
 Github: https://github.com/wurmen
 
