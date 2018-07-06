@@ -2,7 +2,7 @@
 """
 Created on Sat Jun 23 15:15:09 2018
 
-@author: wu
+Author: cheng-man wu
 LinkedIn: www.linkedin.com/in/chengmanwu
 Github: https://github.com/wurmen
 """
