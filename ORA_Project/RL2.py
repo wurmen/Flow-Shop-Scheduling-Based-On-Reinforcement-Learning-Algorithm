@@ -13,9 +13,8 @@ import time
 import sys
 import pickle
 
-#filename = 'D:\\graduate\\碩一(下)\\作業研究應用\\ORA_project\\final project\\GA\\flow_shop.xlsx'
-#filename = "D:\\graduate\\碩一(下)\\作業研究應用\\ORA_project\\final project\\GA\\20x5_flowshop.xlsx"
-pt_tmp=pd.read_excel(filename,sheet_name="S1",index_col =[0])
+
+pt_tmp=pd.read_excel(flow_shop.xlsx,sheet_name="S1",index_col =[0])
 pt = pt_tmp.as_matrix().tolist()
 j_num=len(pt)
 m_num=5
