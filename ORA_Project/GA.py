@@ -112,18 +112,7 @@ for n in range(num_iteration):
         total_fitness=total_fitness+chrom_fitness[c]
     
     
-#    total_chromosome=parent_list[:]+offspring_list[:] # combine parent and offspring chromosomes
-#    chrom_fitness,chrom_fit=[],[]
-#    total_fitness=0
-#    for i in range(population_size*2):
-#        ptime=0
-#        tardiness=0
-#        for j in range(num_job):
-#            ptime=ptime+p[total_chromosome[i][j]]
-#            tardiness=tardiness+w[total_chromosome[i][j]]*max(ptime-d[total_chromosome[i][j]],0)
-#        chrom_fitness.append(1/tardiness)
-#        chrom_fit.append(tardiness)
-#        total_fitness=total_fitness+chrom_fitness[i]
+
     
     '''----------selection----------'''
     pk,qk=[],[]
