@@ -1,7 +1,7 @@
 # Flow-Shop-Scheduling-Based-On-Reinforcement-Learning-Algorithm (Cont.)
 
 ## § Data source
-Project使用的兩個9x5、20x5 flow shop資料，皆取自 [OR_Library](http://mistic.heig-vd.ch/taillard/problemes.dir/ordonnancement.dir/ordonnancement.html) 內所提供的 flow shop 例子
+Project使用的兩個 9x5、20x5 flow shop資料，皆取自 [OR_Library](http://mistic.heig-vd.ch/taillard/problemes.dir/ordonnancement.dir/ordonnancement.html) 內所提供的 flow shop 例子
 
 ## § Reference
 - [Peter, S. 2003. “Flow-shop Scheduling Based on Reinforcement Learning Algorithm.” Journal of Production Systems and Information Engineering, A Publication of the University of Miskolc 1: 83–90.](https://scholar.google.com/scholar_lookup?hl=en&publication_year=2003&pages=83-90&author=S.+Peter&title=Flow-shop+Scheduling+Based+on+Reinforcement+Learning+Algorithm)
