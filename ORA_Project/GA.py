@@ -21,7 +21,7 @@ num_job=len(pt)
 # raw_input is used in python 2
 population_size=int(input('Please input the size of population: ') or 30) # default value is 20
 crossover_rate=float(input('Please input the size of Crossover Rate: ') or 0.8) # default value is 0.8
-mutation_rate=float(input('Please input the size of Mutation Rate: ') or 0.8) # default value is 0.5
+mutation_rate=float(input('Please input the size of Mutation Rate: ') or 0.2) # default value is 0.2
 mutation_selection_rate=float(input('Please input the mutation selection rate: ') or 0.2)
 num_mutation_jobs=round(num_job*mutation_selection_rate)
 num_iteration=int(input('Please input number of iteration: ') or 2000) # default value is 100
@@ -69,7 +69,7 @@ for n in range(num_iteration):
     '''--------mutatuon--------'''   
     for m in range(len(offspring_list)):
         mutation_prob=np.random.rand()
-        if mutation_rate <= mutation_prob:
+        if mutation_rate >= mutation_prob:
             m_chg=list(np.random.choice(num_job, num_mutation_jobs, replace=False)) # chooses the position to mutation
             t_value_last=offspring_list[m][m_chg[0]] # save the value which is on the first mutation position
             for i in range(num_mutation_jobs-1):
