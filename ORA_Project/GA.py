@@ -39,7 +39,7 @@ for i in range(population_size):
         
 for n in range(num_iteration):
     Tbest_now=99999999999           
-    '''-------- two point crossover --------'''
+    '''-------- crossover --------'''
     parent_list=population_list[:]
     offspring_list=population_list[:]
     S=list(np.random.permutation(population_size)) # generate a random sequence to select the parent chromosome to crossover
